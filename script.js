@@ -38,6 +38,9 @@ var redMarker = new L.Icon({
   shadowSize: [41, 41]
 });
 
+
+
+
 // add some data
 // nice leaflet-ajax plugin
 // https://github.com/calvinmetcalf/leaflet-ajax
@@ -152,6 +155,14 @@ $(document).ready(function (e) {
             map.addLayer(hotelsLayer);
         }
     });
+        
+    $("#GPSTraceButton").click(function(){
+        if(map.hasLayer(GPSTraceLayer)){
+            map.removeLayer(GPSTraceLayer);
+        } else {
+            map.addLayer(GPSTraceLayer);
+        }
+    });
     e.preventDefault();
 })
 
@@ -187,9 +198,41 @@ legend.onAdd = function(icon, legend){
                             "<td id='tinyText'>&nbsp;Blue<br/>&nbsp;lines&nbsp;&nbsp;</td>" +
                             "<td>Sidewalks</td>" + 
                         "</tr>" +
+                        "<tr onclick='GPSTraceButton.click()'>" +
+                            "<td>&nbsp;<img src='images/marker-icon-black.png'/ alt='Black marker icon' height='22' width='16'></td>" +
+                            "<td id='GPSTraceButton'>GPS Trace&nbsp;</td>" +
+                        "</tr>" +
                     "</table>"
     div.innerHTML += "</div>";
     
     return div;
     };
 legend.addTo(map);
+
+
+// added Sample GPS Trace 2018-02-28
+
+var blackMarker = new L.Icon({
+  iconUrl: 'images/dot.png',
+  iconSize: [72,72]
+});
+
+// black marker for Sample GPS Trace
+// var blackMarker = new L.Icon({
+//   iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-black.png',
+//   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+//   iconSize: [25, 41],
+//   iconAnchor: [12, 41],
+//   popupAnchor: [1, -34],
+//   shadowSize: [41, 41]
+// });
+
+function sampleGPSTrace(feature, layer){
+    layer.setIcon(blackMarker);
+}
+
+var GPSTraceLayer = L.geoJson.ajax('data/sampleGPSTrace.geojson', {
+  onEachFeature: sampleGPSTrace
+}).addTo(map);
+
+

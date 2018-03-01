@@ -52,6 +52,11 @@ a:visited {
     cursor: pointer;
 }
 
+
+#GPSTraceButton {
+    color: black;
+    cursor: pointer;
+}
 .legend, table, tr {
     border: 1px solid black;
     border-collapse: collapse;
