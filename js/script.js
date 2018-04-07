@@ -187,20 +187,20 @@ legend.onAdd = function(icon, legend){
                             "</th>" +
                         "</tr>" +
                         "<tr onclick='hotelsButton.click()'>" +
-                            "<td>&nbsp;<img src='images/marker-icon-green.png' alt='Green marker icon' height='22' width='16'/></td>" + 
-                            "<td id='hotelsButton'>Hotels</td>" +
+                            "<td>&nbsp;<img src='images/marker-icon-green.png' alt='Green marker icon' height='22' width='16' title='Click location icons to turn layers on/off'></td>" + 
+                            "<td id='hotelsButton'><a href='https://code-42.github.io/NewportDataProject/data/newport_hotels.geojson' target='_blank' id='hotelsLink' title='Click legend for data file'>Hotels</a></td>" +
                         "</tr>" +
                         "<tr onclick='crosswalksButton.click()'>" +
-                            "<td>&nbsp;<img src='images/marker-icon-red.png'/ alt='Red marker icon' height='22' width='16'></td>" +
-                            "<td id='crosswalksButton'>Crosswalks&nbsp;</td>" +
+                            "<td>&nbsp;<img src='images/marker-icon-red.png' alt='Red marker icon' height='22' width='16' title='Click location icons to turn layers on/off'></td>" +
+                            "<td id='crosswalksButton'><a href='https://code-42.github.io/NewportDataProject/data/bpac_survey_2014.geojson' target='_blank' id='crosswalksLink' title='Click legend for data file'>Crosswalks</a>&nbsp;</td>" +
                         "</tr>" +
                         "<tr id='sidewalksButton' onclick='sidewalksButton.click()'>" +
-                            "<td id='tinyText'>&nbsp;Blue<br/>&nbsp;lines&nbsp;&nbsp;</td>" +
-                            "<td>Sidewalks</td>" + 
+                            "<td id='tinyText' title='Click to turn sidewalks on/off'>&nbsp;Blue<br/>&nbsp;lines&nbsp;&nbsp;</td>" +
+                            "<td><a href='https://code-42.github.io/NewportDataProject/data/npt-sidewalks.geojson' target='_blank' id='sidewalksLink' title='Click legend for data file'>Sidewalks</a></td>" + 
                         "</tr>" +
                         "<tr onclick='GPSTraceButton.click()'>" +
-                            "<td>&nbsp;<img src='images/marker-icon-black.png'/ alt='Black marker icon' height='22' width='16'></td>" +
-                            "<td id='GPSTraceButton'>GPS Trace&nbsp;</td>" +
+                            "<td>&nbsp;<img src='images/marker-icon-black.png' alt='Black marker icon' height='22' width='16' title='Click location icons to turn layers on/off'></td>" +
+                            "<td id='GPSTraceButton'><a href='https://code-42.github.io/NewportDataProject/data/sampleGPSTrace.geojson' target='_blank' id='gpsTraceLink' title='Click legend for data file'>GPS&nbsp;Trace</a>&nbsp;</td>" +
                         "</tr>" +
                     "</table>"
     div.innerHTML += "</div>";

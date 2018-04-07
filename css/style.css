@@ -25,11 +25,11 @@ html, body, #map {
     background-color: black;
 }
 
-/* visited link */
+/* visited link 
 a:visited {
     color: white;
 }
-
+*/
 #buttons {
     z-index: 1;
     width: auto;
@@ -79,6 +79,34 @@ a:visited {
 }
 
 .coolTable th {
-    background-color:purple;
+    background-color:#e3deee;
     color:green;
+    padding-left: 8px;
+    padding-right:8px;
 }
+
+#hotelsLink {
+    text-decoration:none;
+    color: green;
+    cursor: pointer;
+}
+
+#crosswalksLink{
+    text-decoration:none;
+    color: red;
+    cursor: pointer;
+}
+
+#sidewalksLink{
+    text-decoration:none;
+    color: blue;
+    cursor: pointer;
+}
+
+#gpsTraceLink{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+}
+    
+    

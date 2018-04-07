@@ -255,7 +255,7 @@
        "coordinates":  [ -71.312442,41.486428 ]
     },
     "properties": {
-    "name":"Mill street Inn",
+    "name":"Mill Street Inn",
     "street":"75 Mill St",
     "city":"Newport",
     "state":"RI"
@@ -322,6 +322,123 @@
     "properties": {
     "name":"Melville House Inn",
     "street":"39 Clarke St",
+    "city":"Newport",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.311599,41.493117 ]
+    },
+    "properties": {
+    "name":"The Henry Collins Inn",
+    "street":"12 Collins St",
+    "city":"Newport",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.305398,41.495238 ]
+    },
+    "properties": {
+    "name":"Beech Tree Inn and Cottage",
+    "street":"34 Rhode Island Ave",
+    "city":"Newport",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.301186,41.506581 ]
+    },
+    "properties": {
+    "name":"Rodeway Inn",
+    "street":"31 W Main Rd",
+    "city":"Newport",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.302235,41.508917 ]
+    },
+    "properties": {
+    "name":"Rhea's Inn & Restaurant",
+    "street":"120 W Main Rd",
+    "city":"Newport",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.312594,41.50874 ]
+    },
+    "properties": {
+    "name":"Mainstay Hotel & Conference Center",
+    "street":"151 Admiral Kalbfus Rd",
+    "city":"Newport",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.297885,41.505365 ]
+    },
+    "properties": {
+    "name":"The Carriage House Inn",
+    "street":"93 Miantonomi Ave",
+    "city":"Middletown",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.32063,41.492578 ]
+    },
+    "properties": {
+    "name":"Sarah Kendall House",
+    "street":"47 Washington St",
+    "city":"Newport",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.321253,41.494183 ]
+    },
+    "properties": {
+    "name":"Sanford-Covell Villa Marina Bed & Breakfast",
+    "street":"72 Washington St",
+    "city":"Newport",
+    "state":"RI"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.327497,41.491691 ]
+    },
+    "properties": {
+    "name":"Gurney's Newport Resort & Marina",
+    "street":"1 Goat Island",
     "city":"Newport",
     "state":"RI"
     }
