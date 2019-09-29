@@ -1,28 +1,30 @@
 /*css for GeoJSON*/
 
-html, body, #map {
-    z-index: 0;
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	background-color: #bcbcbc;
+html,
+body,
+#map {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #bcbcbc;
 }
 
 #crosswalkSurvey td {
-    color:black;
+  color: black;
 }
 
 #crosswalkSurvey tr:nth-child(even) {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 #crosswalkSurvey tr:nth-child(odd) {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 #crosswalkSurvey th {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
 /* visited link 
@@ -31,82 +33,81 @@ a:visited {
 }
 */
 #buttons {
-    z-index: 1;
-    width: auto;
-    height: auto;
-    position: absolute;
+  z-index: 1;
+  width: auto;
+  height: auto;
+  position: absolute;
 }
 
-#sidewalksButton {
-    color: blue;
-    cursor: pointer;
+#hotels {
+  color: green;
+  cursor: pointer;
 }
 
-#crosswalksButton {
-    color: red;
-    cursor: pointer;
+#crosswalks {
+  color: red;
+  cursor: pointer;
 }
 
-#hotelsButton {
-    color: green;
-    cursor: pointer;
+#sidewalks {
+  color: blue;
+  cursor: pointer;
 }
 
-
-#GPSTraceButton {
-    color: black;
-    cursor: pointer;
+#GPSTrace {
+  color: black;
+  cursor: pointer;
 }
-.legend, table, tr {
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color:lightgrey;
-    color:green;
+.legend,
+table,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: lightgrey;
+  color: green;
 }
 
 .legend {
-    top:10px;
-    right:10px;
-    position: fixed;
+  top: 10px;
+  right: 10px;
+  position: fixed;
 }
 
 .legend td {
-    font-size:200%;
+  font-size: 200%;
 }
 
 .legend #tinyText {
-    font-size:100%;
+  font-size: 100%;
 }
 
 .coolTable th {
-    background-color:#e3deee;
-    color:green;
-    padding-left: 8px;
-    padding-right:8px;
+  background-color: #e3deee;
+  color: green;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #hotelsLink {
-    text-decoration:none;
-    color: green;
-    cursor: pointer;
+  text-decoration: none;
+  color: green;
+  cursor: pointer;
 }
 
-#crosswalksLink{
-    text-decoration:none;
-    color: red;
-    cursor: pointer;
+#crosswalksLink {
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
 }
 
-#sidewalksLink{
-    text-decoration:none;
-    color: blue;
-    cursor: pointer;
+#sidewalksLink {
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
 }
 
-#gpsTraceLink{
-    text-decoration:none;
-    color: black;
-    cursor: pointer;
+#gpsTraceLink {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
-    
-    
